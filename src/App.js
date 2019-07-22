@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import { Route } from 'react-router-dom';
 import data from './data';
 
+//Contexts
+import CartContext from './contexts/CartContext';
+import ProductContext from './contexts/ProductContext';
+
 // Components
 import Navigation from './components/Navigation';
 import Products from './components/Products';
